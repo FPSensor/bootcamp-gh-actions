@@ -8,7 +8,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      run: echo "pull del codigo"
-      run: echo "correr migraciones"
-      run: echo "Generar binario"
-      run: echo "Publicar version"
+       - run: echo "pull del codigo"
+       - run: echo "correr migraciones"
+       - run: echo "Generar binario"
+       - run: echo "Publicar version"
