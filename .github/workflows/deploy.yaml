@@ -1,0 +1,14 @@
+name: "Test"
+
+on:
+  push:
+    branches: ["main"]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      run: echo "pull del codigo"
+      run: echo "correr migraciones"
+      run: echo "Generar binario"
+      run: echo "Publicar version"
