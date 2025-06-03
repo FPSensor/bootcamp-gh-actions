@@ -5,10 +5,15 @@ on:
     branches: ["main"]
 
 jobs:
-  deploy:
+  ajob:
     runs-on: ubuntu-latest
     steps:
        - run: echo "pull del codigo"
        - run: echo "correr migraciones"
        - run: echo "Generar binario"
        - run: echo "Publicar version"
+
+  bruh:
+    runs-on: ubuntu-latest
+    steps:
+       - run: echo "Wasting Microsoft resources ig?"
