@@ -8,10 +8,14 @@ jobs:
   ajob:
     runs-on: ubuntu-latest
     steps:
-       - run: echo "pull del codigo"
-       - run: echo "correr migraciones"
-       - run: echo "Generar binario"
-       - run: echo "Publicar version"
+       - name: Working dir
+         runs: ls -al
+
+       - name: Action
+         uses: action/checkout@v4
+
+       - name Check working dir
+         run: ls-al
 
   bruh:
     runs-on: ubuntu-latest
