@@ -14,8 +14,8 @@ jobs:
        - name: Action
          uses: action/checkout@v4
 
-       - name Check working dir
-         run: ls-al
+       - name: Check working dir
+         runs: ls-al
 
   bruh:
     runs-on: ubuntu-latest
