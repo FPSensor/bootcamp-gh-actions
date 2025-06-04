@@ -9,13 +9,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
        - name: Working dir
-         runs: ls -al
+         run: ls -al
 
        - name: Action
          uses: action/checkout@v4
 
        - name: Check working dir
-         runs: ls-al
+         run: ls-al
 
   bruh:
     runs-on: ubuntu-latest
